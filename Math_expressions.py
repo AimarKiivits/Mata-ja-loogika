@@ -42,7 +42,7 @@ side_lenght = 5
 height = math.sqrt(side_lenght ** 2 - (side_lenght / 2) ** 2)
 
 #Calculating triangle area
-triangle_area = height * side_lenght / 2
+triangle_area = round(height * side_lenght / 2)
 
 #Defining a, b, and c
 a = 3
@@ -62,8 +62,8 @@ kaatet = math.sqrt(c ** 2 - a ** 2)
 seconds = 69420
 
 #Converting seconds to minutes and then minutes to hours
-minutes = seconds / 60
-hours = minutes / 60
+minutes = seconds // 60
+hours = minutes // 60
 
 #Define angle
 angle = 96
@@ -76,7 +76,7 @@ cosine = round(math.cos(angle), 1)
 n = 27
 
 #Writing as many Heys n amount of times
-lots_of_heys = 27 * "Hey"
+lots_of_heys = n * "Hey"
 
 #Making numbers into strings and adding them together
 string_numbers = str(num_a) + str(num_b)
