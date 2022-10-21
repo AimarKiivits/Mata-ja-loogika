@@ -81,3 +81,26 @@ lots_of_heys = n * "Hey"
 #Making numbers into strings and adding them together
 string_numbers = str(num_a) + str(num_b)
 
+#Kontroll:
+
+print(sum)
+print(difference)
+print(division_int)
+print(division_float)
+print(multiply_numbers)
+print(power)
+print(remainder)
+print(average)
+print(circle_area)
+print(triangle_area)
+print(discriminant)
+print(hüpotenuus)
+print(kaatet)
+print(minutes)
+print(hours)
+print(sine)
+print(cosine)
+print(lots_of_heys)
+print(string_numbers)
+
+
