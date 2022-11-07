@@ -36,13 +36,10 @@ average = (num_a + num_b) / 2
 circle_area = round(math.pi * (radius ** 2), 2)
 
 #Defining side_lenght
-side_lenght = 5
-
-#Calculating height
-height = math.sqrt(side_lenght ** 2 - (side_lenght / 2) ** 2)
+side_length = 5
 
 #Calculating triangle area
-triangle_area = round(height * side_lenght / 2)
+triangle_area = round((math.sqrt(3) / 4) * side_length ** 2)
 
 #Defining a, b, and c
 a = 3
